@@ -33,6 +33,7 @@ public class Main {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public String queryBooks(Model model)
     {
+        System.out.print("123");
         return "";
     }
 
